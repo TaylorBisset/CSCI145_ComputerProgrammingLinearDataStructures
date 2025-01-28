@@ -41,25 +41,22 @@ the textbook, else online, to see how to generate a random number in Java.
 The **DiceRollem.java** file has a single class with a single method, the `main()` method. The `main()` method
 does the following things:
 
-• Creates five objects of type Dice.
-• Defines an accumulator variable, and assigns it the value 0.
-• Runs a single for loop for 1000 iterations. During each iteration:
+    • Creates five objects of type Dice.
+    • Defines an accumulator variable, and assigns it the value 0.
+    • Runs a single for loop for 1000 iterations. During each iteration:
 
-– Each of the 5 dice is rolled by invoking their `roll()` methods.
-– Checks if the values of all 5 dice are equal, and this is done using a SINGLE if statement with a
-single compound Boolean expression.
-– If the conditional evaluates to true, then:
-∗ Increment the accumulator variable.
-∗ Print a single line that specifies the roll number, and the value of what all the dice showed.
-• Prints to the screen the total tally of times that all five dice during a single toss were the same value.
+    – Each of the 5 dice is rolled by invoking their `roll()` methods.
+    – Checks if the values of all 5 dice are equal, and this is done using a SINGLE if statement with a single compound Boolean expression.
+    – If the conditional evaluates to true, then:
+        ∗ Increment the accumulator variable.
+        ∗ Print a single line that specifies the roll number, and the value of what all the dice showed.
+    • Prints to the screen the total tally of times that all five dice during a single toss were the same value.
 
 ## Requirements
-• The names of your java files must be **DiceRollem.java** and **Dice.java**.
-• The `roll()` method must assign a value of *diceVal* in the range 1 through 7. The value of *diceVal*
-cannot be assigned the integer 0.
-• The `main()` method in **DiceRollem.java** must create 5 instances of a Dice object, and contain a single
-for loop.
-• You must make your program output look exactly like the examples above.
+    • The names of your java files must be **DiceRollem.java** and **Dice.java**.
+    • The `roll()` method must assign a value of *diceVal* in the range 1 through 7. The value of *diceVal* cannot be assigned the integer 0.
+    • The `main()` method in **DiceRollem.java** must create 5 instances of a Dice object, and contain a single for loop.
+    • You must make your program output look exactly like the examples above.
 
 ## Submission and Grading
 ### Submission
