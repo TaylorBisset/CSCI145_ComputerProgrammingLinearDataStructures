@@ -1,5 +1,5 @@
 public class DiceRollem {
-    public static void main(String[], args) {
+    public static void main(String[] args) {
         // Create 5 new dice.
         Dice dice1 = new Dice();
         Dice dice2 = new Dice();
@@ -9,7 +9,7 @@ public class DiceRollem {
 
         int allEqual = 0; // Accumulator variable.
 
-        for (i = 0; i < 1000; i++) { // Runs 1000 iterations.
+        for (int i = 0; i < 1000; i++) { // Runs 1000 iterations.
             dice1.roll();
             dice2.roll();
             dice3.roll();
@@ -20,10 +20,10 @@ public class DiceRollem {
             dice1.diceVal == dice3.diceVal &&
             dice1.diceVal == dice4.diceVal &&
             dice1.diceVal == dice5.diceVal) {
-                System.out.println("Roll number " + i + " all dice show" + dice1.diceVal + ".")
+                System.out.println("Roll number " + i + " all dice show" + dice1.diceVal + ".");
                 allEqual++;
             }
         }
-        System.out.println("A total of " + allEqual + "tosses were the same.")
+        System.out.println("A total of " + allEqual + "tosses were the same.");
     }
 }
