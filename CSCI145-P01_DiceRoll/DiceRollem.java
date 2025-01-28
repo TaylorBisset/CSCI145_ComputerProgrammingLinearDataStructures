@@ -10,7 +10,20 @@ public class DiceRollem {
         int allEqual = 0; // Accumulator variable.
 
         for (i = 0; i < 1000; i++) { // Runs 1000 iterations.
-            
+            dice1.roll();
+            dice2.roll();
+            dice3.roll();
+            dice4.roll();
+            dice5.roll();
+
+            if (dice1.diceVal == dice2.diceVal && 
+            dice1.diceVal == dice3.diceVal &&
+            dice1.diceVal == dice4.diceVal &&
+            dice1.diceVal == dice5.diceVal) {
+                System.out.println("Roll number " + i + " all dice show" + dice1.diceVal + ".")
+                allEqual++;
+            }
         }
+        System.out.println("A total of " + allEqual + "tosses were the same.")
     }
 }
