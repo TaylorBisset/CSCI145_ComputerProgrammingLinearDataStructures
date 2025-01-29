@@ -1,0 +1,4 @@
+Fixing notation!
+The value of 204 reformatted is 20.4
+The value of 177 reformatted is 17.7
+The product of 20.4 and 17.7 is 361.08
