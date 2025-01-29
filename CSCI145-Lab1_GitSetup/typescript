@@ -1,0 +1,167 @@
+bissett@cf165-24:~/WWU/CS145/202510_csci145_bissett$ history
+    1  git
+    2  git status 
+    3  git config
+    4  git add .
+    5  git status 
+    6  git commit -m "Initial commit"
+    7  git status 
+    8  git config --global user.name "Taylor Bisset"
+    9  git config --global user.email "taylorbisset@protonmail.com"
+   10  git status 
+   11  git commit -m "Git reconfigured"
+   12  git add .
+   13  git commit -m "Git reconfigured"
+   14  git push 
+   15  git clear
+   16  clear
+   17  ls
+   18  mkdir lab1
+   19  ls
+   20  cd lab1
+   21  touch writeup.txt
+   22  git add writeup.txt 
+   23  git commit - m "Added empty writeup.txt"
+   24  git commit -m "Added empty writeup.txt"
+   25  git status
+   26  git push
+   27  clear
+   28  git add .
+   29  git commit -m "Name added to writeup.txt"
+   30  git add .
+   31  git commit -m "Hobby added to writeup.txt"
+   32  git diff
+   33  git status 
+   34  git push
+   35  clear
+   36  branch
+   37  git checkout -b question3
+   38  git add .
+   39  git commit -m "Added Favorite Song to writeup.txt"
+   40  git checkout main 
+   41  git pull origin main
+   42  git merge question3 
+   43  git status 
+   44  git push
+   45  clear
+   46  git add .
+   47  git commit -m "Retrying branching"
+   48  git push
+   49  git status 
+   50  git add .
+   51  git commit -m "Retrying branching"
+   52  git push
+   53  clear
+   54  git checkout -b question3
+   55  git status 
+   56  git checkout question3 
+   57  git add .
+   58  git status 
+   59  git add .
+   60  git status 
+   61  git add .
+   62  git status 
+   63  git add .
+   64  git status 
+   65  git commit -m "Added favorite Song to writeup.txt"
+   66  git push
+   67  git push --set-upstream origin question3
+   68  git status 
+   69  git checkout main 
+   70  git merge question3 
+   71  git status 
+   72  git add .
+   73  git commit 
+   74  exit
+   75  git add .
+   76  clear
+   77  git commit -m "Added Hello World in HelloWorld.java"
+   78  git push
+   79  ls
+   80  cd lab1/
+   81  ls
+   82  ls -a
+   83  cd .
+   84  clear
+   85  cd ..
+   86  touch .gitignore
+   87  ls
+   88  ls -a
+   89  code .gitignore
+   90  git add .
+   91  git commit -m "Added .gitignore file"
+   92  git push
+   93  clear
+   94  script
+   95  exit
+   96  git commit -m "Added Favorite Song to writeup.txt"
+   97  git push
+   98  clear
+   99  git checkout question3 
+  100  ls
+  101  cd lab1/
+  102  ls
+  103  touch writeup.txt 
+  104  git checkout main 
+  105  git merge question3 
+  106  git checkout question3 
+  107  touch writeup.txt 
+  108  cat writeup.txt 
+  109  code writeup.txt 
+  110  git status 
+  111  git commit -m "merging attempt"
+  112  git status 
+  113  clear
+  114  rm writeup.txt 
+  115  clear
+  116  git branch 
+  117  git branch -d question3 
+  118  git branch 
+  119  clear
+  120  git add .
+  121  git commit -m "Added empty writeup.txt"
+  122  git add .
+  123  git commit -m "Added name to writeup.txt"
+  124  git add .
+  125  git commit -m "Added name to writeup.txt"
+  126  clear
+  127  git add .
+  128  git commit -m "Added hobby to writeup.txt"
+  129  git push
+  130  clear
+  131  git checkout -b question3
+  132  git status 
+  133  git add .
+  134  git commit -m "Added favorite song to writeup.txt"
+  135  git push
+  136  push --set-upstream origin question3
+  137  git push --set-upstream origin question3
+  138  git status 
+  139  git checkout main 
+  140  git status 
+  141  git merge question3 
+  142  git status 
+  143  git push
+  144  git status 
+  145  clear
+  146  git status 
+  147  code HelloWorld.java
+  148  ls
+  149  git status 
+  150  git add .
+  151  git commit -m "Added empty HelloWorld.java"
+  152  git status 
+  153  clear
+  154  exit
+  155  ls
+  156  code typescript 
+  157  history
+  158  git add .
+  159  git commit -m "typescript log updated using history command"
+  160  git push
+  161  git status 
+  162  git add .
+  163  git commit -m "typescript log moved to lab1 folder"
+  164  git push
+  165  clear
+  166  history
