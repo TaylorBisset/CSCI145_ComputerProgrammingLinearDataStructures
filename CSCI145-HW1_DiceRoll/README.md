@@ -1,4 +1,4 @@
-# CSCI 145 Homework Assignment 1 - Dice Roll
+# CSCI 145 Homework 1 - Dice Roll
 
 ## Overview
 This project serves as a review of the major concepts covered in an introductory programming course (e.g.,
