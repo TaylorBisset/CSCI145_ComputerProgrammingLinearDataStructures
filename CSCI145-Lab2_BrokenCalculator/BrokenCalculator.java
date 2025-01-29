@@ -1,6 +1,9 @@
+// BrokenCalculator.java
+
 // Author: Taylor Bisset
 // Description: Lab 2, CSCI 145
 // Date: Jan 22,2025
+
 public class BrokenCalculator {
     public static void main(String[] args) {
         // A. Get two integers from the command line
