@@ -21,10 +21,10 @@ while 204 integer division 10 gives 20, which is the number before the decimal i
 2. That file is incomplete and is a skeleton of a sample program. You are welcome to use it or write your own. Only two lines of code have been written, which you are not allowed to edit. The rest are comments. Lines of code that say `// COMPLETE THE CODE` you will need to write. Read the comments for each section to get a sense of what code you need to write. Also, the number of `// COMPLETE THE CODE` comments in that file is how many lines of Java code were written for the solution. You might need fewer lines of code or more.
 
 **For the lines of code that you write, you are allowed to ONLY use the assignment operator, and you can ONLY use the following mathematical operators:**
-- /
-- %
-- *
-- +
+- `/`
+- `%`
+- `*`
+- `+`
 
     **You are NOT allowed to cast variables from one type to another. Only integers.**
 
@@ -41,7 +41,7 @@ There are 8 parts to the code, labeled A through H. If you choose to keep that s
 In your Java code, you CAN make use of periods (for floating-point numbers), but when the program is RUN, the user CAN ONLY enter integer (non-decimal) numbers. A sample output for the completed code is provided. Note that your program should work for ANY numerical input supplied by the user and not just the values 204 and 177.
 
 ## Validating Output
-I have provided a sample output in the assignment description called example output.txt. You will use this to verify if your program is working correctly. When you run a program in the terminal, the output is usually displayed directly in the terminal window. However, sometimes it's useful to save the output to a file so you can use it later or share it with others. You can do this using the ”>” symbol, which redirects the output of a command to a file. Here's how you can use `>` to save the output of your program to a file:
+I have provided a sample output in the assignment description called example output.txt. You will use this to verify if your program is working correctly. When you run a program in the terminal, the output is usually displayed directly in the terminal window. However, sometimes it's useful to save the output to a file so you can use it later or share it with others. You can do this using the `>` symbol, which redirects the output of a command to a file. Here's how you can use `>` to save the output of your program to a file:
 
 `java BrokenCalculator 204 177 > output.txt`
 
@@ -55,7 +55,7 @@ Here's how you can use “diff” to compare the contents of two files:
 This will compare the contents of `output.txt` and `example output.txt` and display any differences between them. If there are no differences, that means your program is working correctly and producing the expected output. Keep in mind that the output of your program may contain whitespace or other characters that are not immediately visible in the terminal window. If you're having trouble getting `diff` to match your output to the example output, try opening both files in a text editor and comparing them visually to see if there are any subtle differences.
 
 ## Submission
-Once you have finished all of the above, add, commit and push BrokenCalculator.java to your course repository main branch. Note that this file should be directly within a lab2 subdirectory of your repository (spelling, spacing, and capitalization matter).
+Once you have finished all of the above, add, commit and push BrokenCalculator.java to your course repository main branch. Note that this file should be directly within a **lab2** subdirectory of your repository (spelling, spacing, and capitalization matter).
 
 ## Rubric
 | Criteria | Points |
