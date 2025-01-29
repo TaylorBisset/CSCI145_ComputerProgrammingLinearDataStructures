@@ -20,10 +20,10 @@ public class DiceRollem {
             dice1.diceVal == dice3.diceVal &&
             dice1.diceVal == dice4.diceVal &&
             dice1.diceVal == dice5.diceVal) {
-                System.out.println("Roll number " + i + " all dice show" + dice1.diceVal + ".");
+                System.out.println("Roll number " + i + " all dice show " + dice1.diceVal + ".");
                 allEqual++;
             }
         }
-        System.out.println("A total of " + allEqual + "tosses were the same.");
+        System.out.println("A total of " + allEqual + " tosses were the same.");
     }
 }
