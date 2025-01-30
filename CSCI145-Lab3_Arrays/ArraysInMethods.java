@@ -18,7 +18,9 @@ public class ArraysInMethods {
         initArray(data, 100);
         printArray(data);
         int max = findMax(data);
+        int min = findMin(data);
         System.out.printf("max = %d%n", max);
+        System.out.printf("min = %d%n", min);
     }
 
     public void initArray(int[] array, int range) {
@@ -43,5 +45,15 @@ public class ArraysInMethods {
             }
         }
         return max;
+    }
+
+    public int findMin(int[] data) {
+        int min = data[0];
+        for (int i = 0; i < data.length; i++) {
+            if (data[i] < min) {
+                min = data[i];
+            }
+        }
+        return min;
     }
 }
