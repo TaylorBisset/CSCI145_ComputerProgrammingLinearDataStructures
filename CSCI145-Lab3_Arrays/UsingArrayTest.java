@@ -7,7 +7,8 @@ public class UsingArrayTest {
     }
 
     public void test() {
-        int[] data = new int[10];
+        int arraySize = 20;
+        int[] data = new int[arraySize];
         Random random = new Random();
         
         // Initializes array
@@ -21,6 +22,18 @@ public class UsingArrayTest {
         }
         
         System.out.println();
+
         // Reverse array
+        int[] tempData = new int[arraySize];
+        for (int i = 0; i < data.length; i++) {
+            tempData[i] = data[data.length - 1 - i];
+            tempData[data.length - 1 - i] = data[i];
+        }
+
+        // Print reversed array
+        for (int i = 0; i < data.length; i++) {
+            System.out.printf("%d ", tempData[i]);
+        }
+
     }
 }
