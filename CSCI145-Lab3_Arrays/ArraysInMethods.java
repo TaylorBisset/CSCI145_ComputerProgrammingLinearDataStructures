@@ -1,3 +1,9 @@
+// ArraysInMethods.java
+
+// Author: Taylor Bisset
+// Description: Lab 3, CSCI 145
+// Date: Jan 29,2025
+
 import java.util.Random;
 
 public class ArraysInMethods {
@@ -7,9 +13,12 @@ public class ArraysInMethods {
     }
     
     public void run() {
-        int[] data = new int[10];
+        int arraySize = 20;
+        int[] data = new int[arraySize];
         initArray(data, 100);
         printArray(data);
+        int max = findMax(data);
+        System.out.printf("max = %d%n", max);
     }
 
     public void initArray(int[] array, int range) {
@@ -24,5 +33,15 @@ public class ArraysInMethods {
             System.out.printf("%d ", arrayToPrint[i]);
         }
         System.out.println();
+    }
+
+    public int findMax(int[] data) {
+        int max = data[0];
+        for (int i = 0; i < data.length; i++) {
+            if (data[i] > max) {
+                max = data[i];
+            }
+        }
+        return max;
     }
 }

@@ -1,3 +1,9 @@
+// UsingArrayTest.java
+
+// Author: Taylor Bisset
+// Description: Lab 3, CSCI 145
+// Date: Jan 29,2025
+
 import java.util.Random;
 
 public class UsingArrayTest {
