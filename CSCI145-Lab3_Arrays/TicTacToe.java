@@ -12,11 +12,13 @@ public class TicTacToe {
         ticTacToe.run();
     }
 
-    private String[][] board;
+    private final String[][] board;
 
     public TicTacToe() {
         board = new String[3][3];
     }
+
+    Scanner input = new Scanner(System.in);
 
     public void run() {
         final String INVALID_BOARD_MESSAGE = "Sorry, you can only enter x's and o's.";
@@ -32,7 +34,6 @@ public class TicTacToe {
     private void initBoard() {
         final String INIT_BOARD_MESSAGE = "Enter x's and o's on board (L-R, T-B): ";
         System.out.print(INIT_BOARD_MESSAGE);
-        Scanner input = new Scanner(System.in);
         for (int r = 0; r < 3; r++) {
             for (int c = 0; c < 3; c++) {
                 board[r][c] = input.next();
@@ -84,11 +85,18 @@ public class TicTacToe {
             winner = board[0][2];
         }
         
-        // Check rows to see who wins
-        for (int r = 0; r < board.length; r++) {
-            if ((board[r][0].equals(board[r][1])) &&
-                    (board[r][1].equals(board[r][2]))) {
-                winner = board[r][0];
+        // // Check rows to see who wins
+        // for (int r = 0; r < board.length; r++) {
+        //     if ((board[r][0].equals(board[r][1])) &&
+        //             (board[r][1].equals(board[r][2]))) {
+        //         winner = board[r][0];
+        //     }
+        // }
+        
+        // Rows check code changed to a foreach loop
+        for (String[] board1 : board) {
+            if ((board1[0].equals(board1[1])) && (board1[1].equals(board1[2]))) {
+                winner = board1[0];
             }
         }
         
