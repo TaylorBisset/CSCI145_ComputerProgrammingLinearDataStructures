@@ -24,16 +24,17 @@ public class UsingArrayTest {
         System.out.println();
 
         // Reverse array
-        int[] tempData = new int[arraySize];
-        for (int i = 0; i < data.length; i++) {
-            tempData[i] = data[data.length - 1 - i];
-            tempData[data.length - 1 - i] = data[i];
+        for (int i = 0; i < data.length / 2; i++) {
+            int t = data[i];
+            data[i] = data[data.length - 1 - i];
+            data[data.length - 1 - i] = t;
         }
 
-        // Print reversed array
-        for (int i = 0; i < data.length; i++) {
-            System.out.printf("%d ", tempData[i]);
-        }
+        System.out.println();
 
+        // Print array
+        for (int i = 0; i < data.length; i++) {
+            System.out.printf("%d ", data[i]);
+        }
     }
 }
