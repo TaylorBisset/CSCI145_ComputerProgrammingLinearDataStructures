@@ -56,7 +56,14 @@ public class TicTacToe {
 
     private boolean isBoardValid() {
         // Check board contains only x's and o's
-        // To Be Implemented
+        for (int r = 0; r < 3; r++) {
+            for (int c = 0; c < 3; c++) {
+                String cell = board[r][c];
+                if (!cell.equals("x") && !cell.equals("o")) {
+                    return false;
+                }
+            }
+        }
         return true;
     }
 
@@ -64,13 +71,16 @@ public class TicTacToe {
         final String WINNER_MESSAGE = "Congratulations %s is the winner!\n";
         final String NO_WINNER_MESSAGE = "Sorry, no one wins.";
         String winner = null;
+        
         // Check first diagonal to see who wins
         if (board[0][0].equals(board[1][1]) &&
                 board[1][1].equals(board[2][2])) {
             winner = board[0][0];
         }
+        
         // Check second diagonal to see who wins
         // To Be Implemented
+        
         // Check rows to see who wins
         for (int r = 0; r < board.length; r++) {
             if ((board[r][0].equals(board[r][1])) &&
@@ -78,8 +88,10 @@ public class TicTacToe {
                 winner = board[r][0];
             }
         }
+        
         // Check columns to see who wins
         // To Be Implemented
+        
         // Print winner
         if (winner != null) {
             System.out.printf(WINNER_MESSAGE, winner);
