@@ -20,8 +20,6 @@ public class UsingArrayTest {
         for (int i = 0; i < data.length; i++) {
             System.out.printf("%d ", data[i]);
         }
-        
-        System.out.println();
 
         // Reverse array
         for (int i = 0; i < data.length / 2; i++) {

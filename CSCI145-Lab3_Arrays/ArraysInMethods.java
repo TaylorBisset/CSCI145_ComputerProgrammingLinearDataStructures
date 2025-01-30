@@ -1,6 +1,11 @@
 import java.util.Random;
 
 public class ArraysInMethods {
+    public static void main(String[] args) {
+        ArraysInMethods arrayInMethods = new ArraysInMethods();
+        arrayInMethods.run();
+    }
+    
     public void run() {
         int[] data = new int[10];
         initArray(data, 100);
