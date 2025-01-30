@@ -16,12 +16,12 @@ public class UsingArrayTest {
         int arraySize = 20;
         int[] data = new int[arraySize];
         Random random = new Random();
-        
+
         // Initializes array
         for (int i = 0; i < data.length; i++) {
             data[i] = random.nextInt() % 100;
         }
-        
+
         // Print array
         for (int i = 0; i < data.length; i++) {
             System.out.printf("%d ", data[i]);

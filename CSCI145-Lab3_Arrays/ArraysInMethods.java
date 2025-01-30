@@ -11,7 +11,7 @@ public class ArraysInMethods {
         ArraysInMethods arrayInMethods = new ArraysInMethods();
         arrayInMethods.run();
     }
-    
+
     public void run() {
         int arraySize = 20;
         int[] data = new int[arraySize];
