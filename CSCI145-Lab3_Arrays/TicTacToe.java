@@ -79,7 +79,10 @@ public class TicTacToe {
         }
         
         // Check second diagonal to see who wins
-        // To Be Implemented
+        if (board[0][2].equals(board[1][1]) &&
+                board[1][1].equals(board[2][0])) {
+            winner = board[0][2];
+        }
         
         // Check rows to see who wins
         for (int r = 0; r < board.length; r++) {
