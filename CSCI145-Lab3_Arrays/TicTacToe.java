@@ -93,7 +93,12 @@ public class TicTacToe {
         }
         
         // Check columns to see who wins
-        // To Be Implemented
+        for (int c = 0; c < board.length; c++) {
+            if ((board[0][c].equals(board[1][c])) &&
+                    (board[1][c].equals(board[2][c]))) {
+                winner = board[0][c];
+            }
+        }
         
         // Print winner
         if (winner != null) {
